@@ -9,10 +9,9 @@ function getFactors(num){
   while(i<=num/2){
     if(num%i===0)
       a.push(i)
-      
+    
     i++
   }
-  
   return a;
 }
 
